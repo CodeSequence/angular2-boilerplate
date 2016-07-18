@@ -1,0 +1,21 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "es2015",
+    "target": "es5",
+    "outDir": "dist",
+    "strictNullChecks": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": ["es5", "dom"],
+    "types": [
+      "node",
+      "core-js",
+      "jasmine"
+    ]
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
