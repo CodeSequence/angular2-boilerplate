@@ -1,7 +1,7 @@
 {
-  "name": "webpack2-angular-1-and-2-boilerplate",
+  "name": "@codesequence/angular2-boilerplate",
   "version": "1.0.0",
-  "description": "Boilerplate for a project that has support for both Angular 1 and Angular 2, along with both TypeScript and JavaScript",
+  "description": "Webpack 2 Boilerplate for Angular 2",
   "main": "index.js",
   "scripts": {
     "test:unit": "karma start",
@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CodeSequence/webpack2-angular-1-and-2-boilerplate.git"
+    "url": "git+https://github.com/codesequence/angular2-boilerplate.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CodeSequence/webpack2-angular-1-and-2-boilerplate/issues"
+    "url": "https://github.com/codesequence/angular2-boilerplate/issues"
   },
-  "homepage": "https://github.com/CodeSequence/webpack2-angular-1-and-2-boilerplate#readme",
+  "homepage": "https://github.com/codesequence/angular2-boilerplate#readme",
   "devDependencies": {
     "@types/core-js": "^0.9.28",
     "@types/jasmine": "^2.2.29",
