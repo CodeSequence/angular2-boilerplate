@@ -1,10 +1,14 @@
 const {resolve} = require('path')
 const {DefinePlugin, optimize} = require('webpack');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = function createWebpackConfig(env) {
   const DEFAULT_PLUGINS = [
     new DefinePlugin({
       PROD: JSON.stringify(env.prod)
+    }),
+    new HtmlWebpackPlugin({
+      template: './app/index.html'
     })
   ];
 
