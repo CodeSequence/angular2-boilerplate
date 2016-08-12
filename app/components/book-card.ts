@@ -1,12 +1,9 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { MD_CARD_DIRECTIVES } from '@angular2-material/card';
-import { MdButton } from '@angular2-material/button';
 
 import { Book } from '../models/book';
 
 @Component({
   selector: 'book-card',
-  directives: [ MD_CARD_DIRECTIVES, MdButton ],
   template: `
     <md-card>
       <md-card-title-group>
